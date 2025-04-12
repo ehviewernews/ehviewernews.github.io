@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【ehviewer】E站v1.9.9.9绿版下载，最新更新，手慢无！</title>
+    <meta name="description" content="Eh-Viewer(E站)是一款海外著名的漫画软件，内置全网热门漫画聚合，分类清晰。本站提供免登录绿色版，无需魔法即可直连使用，支持高级搜索、收藏、评分、离线下载等功能，老司机必备神器！">
+    <meta name="keywords" content="Eh-Viewer,E站,漫画软件,免登录,绿色版,漫画资源,高级搜索,离线下载,老司机必备">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4CAF50',
+                        secondary: '#E8F5E9',
+                        accent: '#2E7D32',
+                        textColor: '#333333',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer components {
+            .feature-icon {
+                @apply text-4xl text-primary mb-3;
+            }
+            .category-badge {
+                @apply inline-block bg-green-100 text-green-800 text-sm font-medium mr-2 px-3 py-1 rounded-full;
+            }
+            .feature-box {
+                @apply bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 h-full;
+            }
+            .wave-shape {
+                @apply absolute bottom-0 left-0 w-full overflow-hidden leading-[0] rotate-180;
+            }
+            .shape-fill {
+                @apply fill-white;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a class="font-bold text-xl text-primary" href="#">Eh-Viewer(E站)</a>
+            <button class="md:hidden" type="button" id="navbarToggler">
+                <span class="block w-6 h-0.5 bg-gray-600 my-1"></span>
+                <span class="block w-6 h-0.5 bg-gray-600 my-1"></span>
+                <span class="block w-6 h-0.5 bg-gray-600 my-1"></span>
+            </button>
+            <div class="hidden md:flex space-x-6" id="navbarMenu">
+                <a class="hover:text-primary transition" href="#about">软件介绍</a>
+                <a class="hover:text-primary transition" href="#features">软件特色</a>
+                <a class="hover:text-primary transition" href="#functions">软件功能</a>
+                <a class="hover:text-primary transition" href="#download">立即下载</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="relative">
+        <header class="bg-gradient-to-r from-green-600/90 to-green-800/70 bg-[url('https://pic1.imgdb.cn/item/67c0250dd0e0a243d40719a1.jpg')] bg-center bg-cover text-white py-32 text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Eh-Viewer(E站) 绿色版</h1>
+                <p class="text-xl mb-10">海外著名漫画软件免登录版<br>全网热门漫画聚合，无需魔法直连使用</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-3">
+                    <a href="#download" class="bg-white text-green-700 px-6 py-3 rounded-full font-bold hover:bg-gray-100 transition">立即下载</a>
+                    <a href="#features" class="border border-white text-white px-6 py-3 rounded-full font-bold hover:bg-white/10 transition">了解更多</a>
+                </div>
+            </div>
+        </header>
+        <div class="wave-shape">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none" class="h-[60px] w-full">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-8 lg:mb-0">
+                    <img src="https://img.youxiguancha.com/29/imgfile/20230727/27164217w8ka.png" alt="Eh-Viewer(E站)界面预览" class="rounded-lg shadow-xl max-w-full h-auto">
+                </div>
+                <div class="lg:w-1/2 lg:pl-12">
+                    <h2 class="text-3xl font-bold mb-6">Eh-Viewer(E站) - 老司机必备漫画神器</h2>
+                    <p class="text-xl mb-4">Eh-Viewer又叫E站，是一个海外著名的漫画软件，今天分享免登录绿色版！</p>
+                    <p class="mb-6 text-gray-600">E站因其账号注册门槛比较高，许多人被拦在外面无法进入。本站提供全版本下载，包括绿版、彩版、白色版本。使用下来，除了绿版，其它版本可能需要借助魔法之力。软件内置了全网热门的漫画聚合，分类特别清晰，不会出现找不到漫画的情况，而且大部分都是连载漫画，大量精彩内容可以说是老司机玩家的必备！</p>
+                    
+                    <div class="mb-6">
+                        <h5 class="font-bold mb-3">支持版本</h5>
+                        <span class="category-badge">绿色版(推荐)</span>
+                        <span class="category-badge">彩色版</span>
+                        <span class="category-badge">白色版</span>
+                        <span class="category-badge">安卓设备</span>
+                    </div>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-primary mr-2"></i>
+                            <span>免登录，跳过登入即可使用</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-primary mr-2"></i>
+                            <span>绿版无需魔法，直连使用</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-primary mr-2"></i>
+                            <span>高级搜索功能，精准找到想要内容</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-primary mr-2"></i>
+                            <span>支持收藏、评分、离线下载</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="functions" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">软件功能</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-unlock-alt feature-icon"></i>
+                        <h4 class="text-xl font-bold">免登录使用</h4>
+                    </div>
+                    <p class="text-gray-600">今天分享的Eh-Viewer绿色版是免登录的。进入软件只要跳过登入就可以进行学习了，无需注册账号，省去繁琐步骤。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-search feature-icon"></i>
+                        <h4 class="text-xl font-bold">高级搜索</h4>
+                    </div>
+                    <p class="text-gray-600">点击软件右上角加号，会发现很多搜索功能的高级选项。比如选择2~5星的作品，还有很多功能可自行探索。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-download feature-icon"></i>
+                        <h4 class="text-xl font-bold">离线下载</h4>
+                    </div>
+                    <p class="text-gray-600">支持离线下载功能，有些资源还提供BT种子，让您随时随地都能欣赏喜爱的漫画，不受网络限制。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-globe feature-icon"></i>
+                        <h4 class="text-xl font-bold">直连使用</h4>
+                    </div>
+                    <p class="text-gray-600">绿版是能直连的，无需魔法即可自由浏览，打开界面非常干净，完全免费无内购项目，推荐使用绿版。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">软件特色</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-book feature-icon"></i>
+                        <h4 class="text-xl font-bold">海量漫画</h4>
+                    </div>
+                    <p class="text-gray-600">软件内置全网热门的漫画聚合，资源分类特别清晰，不会出现找不到漫画的情况，满足各种阅读需求。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-star feature-icon"></i>
+                        <h4 class="text-xl font-bold">收藏评分</h4>
+                    </div>
+                    <p class="text-gray-600">支持收藏和评分功能，可以方便地管理自己喜爱的漫画，并通过评分系统找到高质量内容。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-list feature-icon"></i>
+                        <h4 class="text-xl font-bold">分类清晰</h4>
+                    </div>
+                    <p class="text-gray-600">漫画资源分类清晰，大部分都是连载漫画，可以轻松找到并追踪自己喜欢的系列作品。</p>
+                </div>
+                <div class="feature-box">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-shield-alt feature-icon"></i>
+                        <h4 class="text-xl font-bold">必要权限</h4>
+                    </div>
+                    <p class="text-gray-600">Eh-Viewer需要申请必要的权限以确保应用程序能够正常运行，保证用户体验的同时保护隐私安全。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">立即下载</h2>
+            <p class="text-xl mb-10">Eh-Viewer(E站) 绿色版<br>免登录漫画软件，老司机必备神器</p>
+            <div class="inline-block bg-white p-8 rounded-xl shadow-xl">
+                <h3 class="text-2xl font-bold mb-4">Eh-Viewer(E站)</h3>
+                <div class="mb-4">
+                    <span class="bg-green-500 text-white text-sm px-3 py-1 rounded-full mr-2">更新日期：2025.4.12</span>
+                    <span class="bg-green-600 text-white text-sm px-3 py-1 rounded-full mr-2">完全免费</span>
+                    <span class="bg-blue-500 text-white text-sm px-3 py-1 rounded-full">免登录</span>
+                </div>
+                <a href="https://landpages.pages.dev/" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+                    <i class="fas fa-download mr-2"></i>立即下载
+                </a>
+                <div class="mt-4 space-x-2">
+                    <span class="bg-gray-500 text-white text-xs px-2 py-1 rounded">Android 5.0+</span>
+                    <span class="bg-gray-500 text-white text-xs px-2 py-1 rounded">绿色版</span>
+                    <span class="bg-gray-500 text-white text-xs px-2 py-1 rounded">彩色版</span>
+                    <span class="bg-gray-500 text-white text-xs px-2 py-1 rounded">白色版</span>
+                </div>
+                <p class="mt-4 text-gray-500 text-sm">注意：链接容易失效，请尽快保存！如果用不了，可以反馈给我们，我们会定期检查更新。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p class="mb-4">Eh-Viewer(E站)是老司机必备的一款漫画软件<br>支持的漫画资源超多，打开界面干净，完全免费无内购，绿版无需魔法直连使用！</p>
+            <p class="text-gray-400 text-sm mb-2">本站所有内容资源均来源于网络，仅供用户交流学习与研究使用，版权归属原版权方所有</p>
+            <p class="text-gray-400 text-sm">本站仅提供软件介绍下载及使用方法说明，我们尊重知识产权，呼吁大家共同维护良好的网络环境，合法使用软件。</p>
+        </div>
+    </footer>
+
+    <script>
+        // 导航栏响应式切换
+        document.getElementById('navbarToggler').addEventListener('click', function() {
+            const menu = document.getElementById('navbarMenu');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('block');
+        });
+    </script>
+</body>
+</html>
